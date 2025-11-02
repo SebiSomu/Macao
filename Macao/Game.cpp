@@ -488,6 +488,7 @@ void Game::aiTurn()
                 std::cout << card;
             std::cout << "\n";
         }
+        std::cout << "AI has " << m_ai.getHand().size() << " card(s) left in hand.\n";
     }
     else
     {
@@ -499,6 +500,8 @@ void Game::aiTurn()
             std::cout << "AI drew " << drawCount << " card.\n";
         else
             std::cout << "AI drew " << drawCount << " card(s).\n";
+
+        std::cout << "AI now has " << m_ai.getHand().size() << " card(s) in hand.\n";
 
         m_cardsToDraw = 0;
     }
