@@ -1,0 +1,23 @@
+# Ignore executables
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.lib
+
+# Ignore Visual Studio / build files
+*.user
+*.suo
+*.vcxproj.*
+*.ncb
+*.pdb
+*.idb
+*.ilk
+*.log
+*.tmp
+
+# Ignore folders
+Debug/
+Release/
+build/
